@@ -1,0 +1,84 @@
+{
+   " grocery list":[
+       {
+           "Serial No.":1,
+           "Name":"rice",
+           "Quantity":7,
+           "Unit":"kilogram",
+           "Department":"food item",
+           "Notes":"Sulekha"
+       },
+       {
+           "Serial No.":2,
+           "Name":"sugar",
+           "Quantity":5,
+           "Unit":"kilogram",
+           "Department":"food item",
+           "Notes":"C&H"
+       },
+       {
+        "Serial No.":3,
+        "Name":"Onion",
+        "Quantity":2,
+        "Unit":"kilogram",
+        "Department":"food item",
+        "Notes":"Red Onions" 
+       },
+       {
+        "Serial No.":4,
+        "Name":"Washing Soap",
+        "Quantity":5,
+        "Unit":"number",
+        "Department":"cleaningset",
+        "Notes":"Sunlight"
+       },
+       {
+        "Serial No.":5,
+        "Name":"Toothpaste",
+        "Quantity":200,
+        "Unit":"gram",
+        "Department":"cleaningset ",
+        "Notes":"Colgate"
+       },
+       {
+        "Serial No.":6,
+        "Name":"Dish Wash Liquid",
+        "Quantity":1,
+        "Unit":"Number",
+        "Department":"cleaningset",
+        "Notes":"Vim"
+       },
+       {
+        "Serial No.":7,
+        "Name":"Sanitizer",
+        "Quantity":3,
+        "Unit":"Number",
+        "Department":"cleaning set",
+        "Notes":"lifebuoy"
+       },
+       {
+        "Serial No.":8,
+        "Name":"Quality Mask",
+        "Quantity":5,
+        "Unit":"Number",
+        "Department":"healthy product",
+        "Notes":"N-95"
+       },
+       {
+        "Serial No.":9,
+        "Name":"Disinfectant",
+        "Quantity":1,
+        "Unit":"Number",
+        "Department":"cleaning set",
+        "Notes":"lizol"
+       },
+    {
+        "Serial No.":10,
+        "Name":"Ball point pen",
+        "Quantity":5,
+        "Unit":"Number",
+        "Department":"stationery",
+        "Notes":"cello gripper"
+    }
+   ]
+}
