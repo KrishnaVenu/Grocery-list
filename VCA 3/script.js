@@ -7,6 +7,7 @@ xhttp.onreadystatechange = function(){
         var Jgrocerylist = response.grocerylist;
         console.log(Jgrocerylist);
         var output="";
+        
         for(var i=0;i<Jgrocerylist.length;i++)
         output +="<td>" + Jgrocerylist[i].SerialNumber + "</td>";
         output +="<td>" + Jgrocerylist[i].Name + "</td>";
