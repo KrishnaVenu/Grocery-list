@@ -1,5 +1,4 @@
-{
-   " grocerylist":[
+[
        {
            "SerialNo":1,
            "Name":"rice",
@@ -81,4 +80,4 @@
         "Notes":"cello gripper"
     }
    ]
-}
+
