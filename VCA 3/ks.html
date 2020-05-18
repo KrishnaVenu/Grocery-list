@@ -9,7 +9,62 @@
     <link rel="icon"href="https://previews.123rf.com/images/sergeypykhonin/sergeypykhonin1704/sergeypykhonin170400114/77007941-grocery-shopping-basket-store-food-and-drinks-icon-cartoon-vector-illustration.jpg"type="image/icon"size="32*32">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--<link rel ="stylesheet"href="style.css">-->
+    <link rel ="stylesheet"href="style.css">
+    <div class="container">
+    <div class="row justify content-center">
+      <div class="col-md-8 text-center">
+        <form id="myForm">
+          <div class="form-group">
+            <label for="serialNumber">Serial Number</label>
+            <input type="number" class="form-control" id="serialNumber" />
+          </div>
+          <div class="form-group">
+            <label for="itemName">Name</label>
+            <input type="text" class="form-control" id="itemName" />
+          </div>
+          <div class="form-group">
+            <label for="quantity">Quantity</label>
+            <input type="number" class="form-control" id="quantity" />
+          </div>
+          <div class="form-group">
+            <label for="units">Units</label>
+            <select id="units" class="select">
+              <option>Others</option>
+              <option>kilogram</option>
+              <option>number</option>
+              <option>gram</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="department">Department</label>
+            <select id="department" class="form-control">
+              <option>Others</option>
+              <option>cleaningset</option>
+              <option>stationary</option>
+              <option>healthy products</option>
+              <option>food item</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="notes">Notes</label>
+            <input type="text" class="form-control" id="notes" />
+          </div>
+          <button class="btn btn-primary" type="button" onclick="addItem()">
+            Add
+          </button>
+          <button
+            class="btn btn-primary"
+            type="button"
+            onclick="displayArrayData()"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="showData"></div>
+</div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
